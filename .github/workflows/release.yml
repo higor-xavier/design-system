@@ -32,9 +32,6 @@ jobs:
         with:
           node-version: 20.x
 
-      - name: Install Dependencies
-        run: npm
-
       - name: Publish to NPM
         id: changesets
         uses: changesets/action@v1
